@@ -65,4 +65,25 @@ html {
             color: $green;
         }
     }
+
+    .navbar {
+
+        a {
+            margin-left: 2rem;
+            font-size: 1.7rem;
+            color: $black;
+
+            &:hover {
+                color: $green;
+            }
+        }
+    }
+
+    .icons a,
+    .icons div {
+        font-size: 2.5rem;
+        margin-left: 2rem;
+        cursor: pointer;
+        color: $black;
+    }
 }

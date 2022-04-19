@@ -46,5 +46,20 @@ html::-webkit-scrollbar-thumb {
 .header .logo i {
   color: #219150;
 }
+.header .navbar a {
+  margin-left: 2rem;
+  font-size: 1.7rem;
+  color: #10221b;
+}
+.header .navbar a:hover {
+  color: #219150;
+}
+.header .icons a,
+.header .icons div {
+  font-size: 2.5rem;
+  margin-left: 2rem;
+  cursor: pointer;
+  color: #10221b;
+}
 
 /*# sourceMappingURL=style.css.map */
