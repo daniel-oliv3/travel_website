@@ -85,5 +85,125 @@ html {
         margin-left: 2rem;
         cursor: pointer;
         color: $black;
+
+        &:hover {
+            color: $green;
+        }
+    }
+
+    #menu-btn {
+        display: none;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ======= Recursividade/Recursive ======= */
+@media (max-width: 1200px){
+
+    .header {   
+        padding: 2rem;
+    }
+}
+
+@media (max-width: 991px){
+    
+    html {
+        font-size: 55%;
+    }
+}
+
+@media (max-width: 768px){
+
+    .header {
+
+        #menu-btn {
+            display: inline-block;
+        }
+
+        .navbar {
+            position: relative;
+            top: 0;
+            left: 0;
+            background: $white;
+            z-index: 10000;
+            width: 35rem;
+            height: 100%;
+            box-shadow: 0 0 0 100vw rgba(0,0,0,.8);
+        }
+    }
+}
+
+@media (max-width: 450px){
+    
+    html {
+        font-size: 50%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
