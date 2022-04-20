@@ -136,6 +136,7 @@ html::-webkit-scrollbar-thumb {
   color: green;
 }
 
+/* ======= Home Section/Seção Inicial ======= */
 /* ======= Recursividade/Recursive ======= */
 @media (max-width: 1200px) {
   .header {
