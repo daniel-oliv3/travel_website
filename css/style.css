@@ -153,8 +153,27 @@ section {
   justify-content: flex-end;
   padding: 2rem 9%;
 }
-.home .box .second {
+.home .box.second {
   justify-content: flex-start;
+}
+.home .box .content {
+  width: 50rem;
+}
+.home .box .content span {
+  font-size: 4rem;
+  color: #10221b;
+}
+.home .box .content h3 {
+  font-size: 6rem;
+  color: #219150;
+  padding-top: 0.5rem;
+  text-transform: uppercase;
+}
+.home .box .content p {
+  line-height: 2;
+  color: #10221b;
+  font-size: 1.5rem;
+  padding: 1rem 0;
 }
 
 /* ======= Recursividade/Recursive ======= */
