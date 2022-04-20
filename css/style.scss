@@ -111,7 +111,60 @@ html {
 /* - Search Form/Formulário de Pesquisa - */
 
 .search-form {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10000;
 
+    #close-search {
+        position: absolute;
+        top: 1.5rem;
+        right: 2.5rem;
+        cursor: pointer;
+        color: $white;
+        font-size: 6rem;
+
+        &:hover {
+            color: $green;
+        }
+    }
+
+    form {
+        width: 70rem;
+        margin: 0 2rem;
+        padding-bottom: 2rem;
+        border-bottom: .2rem solid $white;
+        display: flex;
+        align-items: center;
+
+        input {
+            width: 100%;
+            font-size: 2rem;
+            color: $white;
+            text-transform: none;
+            background: none;
+
+            &::placeholder {
+                color: #aaa;
+            }
+        }
+
+        label {
+            font-size: 3rem;
+            cursor: pointer;
+            color: $white;
+
+            &:hover {
+                color: green;
+            }
+        }
+    }
 }
 
 
