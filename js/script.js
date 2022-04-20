@@ -32,14 +32,13 @@ windows.onscroll = () => {
 
 /* Swiper */
 var swiper = new Swiper(".home-slide", {
+    loop: true,
+    grabCursor: true,
     navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
     },
 });
-
-
-
 
 
 
