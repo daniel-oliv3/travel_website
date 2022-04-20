@@ -77,6 +77,13 @@ html {
                 color: $green;
             }
         }
+
+        #nav-close {
+            font-size: 5rem;
+            cursor: pointer;
+            color: $black;
+            display: none;
+        }
     }
 
     .icons a,
@@ -93,6 +100,9 @@ html {
 
     #menu-btn {
         display: none;
+        position: absolute;
+        top: 1rem;
+        right: 2rem;
     }
 }
 
@@ -175,7 +185,7 @@ html {
         }
 
         .navbar {
-            position: relative;
+            position: fixed;
             top: 0;
             left: 0;
             background: $white;
@@ -183,6 +193,22 @@ html {
             width: 35rem;
             height: 100%;
             box-shadow: 0 0 0 100vw rgba(0,0,0,.8);
+            display: flex;
+            flex-flow: column;
+            align-items: center;
+            justify-content: center;
+
+            a {
+                margin: 1rem 0;
+                font-size: 3rem;
+            }
+
+            #nav-close {
+                display: block;
+                position: absolute;
+                top: 1rem;
+                right: 2rem;
+            }
         }
     }
 }

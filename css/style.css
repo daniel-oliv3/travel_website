@@ -54,6 +54,12 @@ html::-webkit-scrollbar-thumb {
 .header .navbar a:hover {
   color: #219150;
 }
+.header .navbar #nav-close {
+  font-size: 5rem;
+  cursor: pointer;
+  color: #10221b;
+  display: none;
+}
 .header .icons a,
 .header .icons div {
   font-size: 2.5rem;
@@ -67,6 +73,9 @@ html::-webkit-scrollbar-thumb {
 }
 .header #menu-btn {
   display: none;
+  position: absolute;
+  top: 1rem;
+  right: 2rem;
 }
 
 /* ======= Recursividade/Recursive ======= */
@@ -85,7 +94,7 @@ html::-webkit-scrollbar-thumb {
     display: inline-block;
   }
   .header .navbar {
-    position: relative;
+    position: fixed;
     top: 0;
     left: 0;
     background: #fff;
@@ -93,6 +102,20 @@ html::-webkit-scrollbar-thumb {
     width: 35rem;
     height: 100%;
     box-shadow: 0 0 0 100vw rgba(0, 0, 0, 0.8);
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .header .navbar a {
+    margin: 1rem 0;
+    font-size: 3rem;
+  }
+  .header .navbar #nav-close {
+    display: block;
+    position: absolute;
+    top: 1rem;
+    right: 2rem;
   }
 }
 @media (max-width: 450px) {
