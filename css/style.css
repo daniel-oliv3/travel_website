@@ -96,16 +96,19 @@ html::-webkit-scrollbar-thumb {
   .header .navbar {
     position: fixed;
     top: 0;
-    left: 0;
+    left: -110%;
     background: #fff;
     z-index: 10000;
     width: 35rem;
     height: 100%;
-    box-shadow: 0 0 0 100vw rgba(0, 0, 0, 0.8);
     display: flex;
     flex-flow: column;
     align-items: center;
     justify-content: center;
+  }
+  .header .navbar.active {
+    left: 0;
+    box-shadow: 0 0 0 100vw rgba(0, 0, 0, 0.8);
   }
   .header .navbar a {
     margin: 1rem 0;
