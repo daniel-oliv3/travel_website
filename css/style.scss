@@ -121,6 +121,11 @@ html {
     align-items: center;
     justify-content: center;
     z-index: 10000;
+    transform: translateY(-110%);
+
+    &.active {
+        transform: translateY(0%);
+    }
 
     #close-search {
         position: absolute;
@@ -149,6 +154,7 @@ html {
             color: $white;
             text-transform: none;
             background: none;
+            padding-right: 2rem;
 
             &::placeholder {
                 color: #aaa;

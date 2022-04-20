@@ -92,6 +92,10 @@ html::-webkit-scrollbar-thumb {
   align-items: center;
   justify-content: center;
   z-index: 10000;
+  transform: translateY(-110%);
+}
+.search-form.active {
+  transform: translateY(0%);
 }
 .search-form #close-search {
   position: absolute;
@@ -118,6 +122,7 @@ html::-webkit-scrollbar-thumb {
   color: #fff;
   text-transform: none;
   background: none;
+  padding-right: 2rem;
 }
 .search-form form input::placeholder {
   color: #aaa;
