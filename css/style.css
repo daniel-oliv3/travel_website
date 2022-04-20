@@ -32,6 +32,21 @@ section {
   padding: 5rem 9%;
 }
 
+.btn {
+  margin-top: 1rem;
+  display: inline-block;
+  border: 0.2rem solid #10221b;
+  color: #10221b;
+  cursor: pointer;
+  background: none;
+  font-size: 1.7rem;
+  padding: 1rem 3rem;
+}
+.btn:hover {
+  background: #10221b;
+  color: #fff;
+}
+
 /* ======= Header Section/Seção do Cabeçalho ======= */
 .header {
   position: fixed;
