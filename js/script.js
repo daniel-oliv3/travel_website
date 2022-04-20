@@ -26,4 +26,38 @@ document.querySelector('#close-search').onclick = () => {
 
 windows.onscroll = () => {
     navbar.classList.remove('active');
-}
+};
+
+
+
+/* Swiper */
+var swiper = new Swiper(".home-slide", {
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
