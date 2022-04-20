@@ -45,6 +45,10 @@ html {
     }
 }
 
+section {
+    padding: 5rem 9%;
+}
+
 /* ======= Header Section/Seção do Cabeçalho ======= */
 
 .header {
@@ -175,7 +179,23 @@ html {
 
 
 /* ======= Home Section/Seção Inicial ======= */
+.home {
+    padding: 0;
 
+    .box {
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        background-size: cover !important;
+        background-position: center !important;
+        justify-content: flex-end;
+        padding: 2rem 9%;
+
+        .second {
+            justify-content: flex-start;
+        }
+    }
+}
 
 
 
